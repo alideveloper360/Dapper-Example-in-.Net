@@ -38,7 +38,8 @@ namespace Dapper_Example
             {
                 for(int i = 0; i < result.Count(); i++)
                 {
-                    var val = result[i].FirstName;
+                    var val = result[i].FirstName; 
+                    var val1 = result[i].FirstName; 
                 }
             }
 
